@@ -34,7 +34,7 @@ Under [_Social -> connect -> US-Rochester, NY](https://discord.com/channels/8675
 - Visit us on the [Meshtastic Discord](https://discord.com/invite/ktMAKGBnBs)
 Under [Social -> connect -> US-Rochester, NY](https://discord.com/channels/867578229534359593/1383046714763509910)
 
-**If you would like to be added, submit a pull request**
+**If you would like to be added, [submit a pull request](https://github.com/MeshNY/meshny.github.io/pulls)**
 
 ## Coordinated MediumSlow Test – July 2025
 
