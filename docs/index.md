@@ -1,5 +1,5 @@
 # Welcome to nyme.sh!
-https://discord.gg/tk5a6sSdyS
+
 ## Connect with us
 **New York City and other New York State regions** 
 
