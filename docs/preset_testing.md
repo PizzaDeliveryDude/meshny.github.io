@@ -5,9 +5,11 @@
 Winter 2025 saw the beginnings of alternate preset testing: MS52, MF45 and LF24. Now we have a website where we can formally organize communication on the mesh. Why is there alternate preset testing done?  LongFast 20, the default channel, may not be the best for our mesh in New York City.  One way to find out is to test other Presets, and see how they perform compared to LF20.  Current and past test information can be found below.
 
 # Current Preset Test
-**Start Date:** Fall 2025 
 
-**End Date:** TBD
+# 24 Hour Medium Slow Preset Test, December 2025
+**Start Date:** Monday, December 8th, 2025 at 1300
+
+**End Date:** Tuesday, December 9th, 2025 at 1300
 
 **#testing-medium-slow** [https://discord.nyme.sh](discord.nyme.sh)
 
