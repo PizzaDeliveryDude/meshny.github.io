@@ -70,23 +70,9 @@ To connect to the wide-area Meshtastic network in the NYC area…
 
 ### Radio settings
 
-<div class="callout -primary" id="meshtastic-radio-settings">
-  <p>Current primary mesh radio settings:</p>
-  <dl>
-    <dt>Preset</dt>
-    <dd><u>Long Range - Fast</u></dd>
-    <dt>Frequency slot</dt>
-    <dd><u>20</u> or <u>0</u></dd>
-    <dt>Public channel name</dt>
-    <dd><u>LongFast</u> or blank</dd>
-    <dt>Public channel key</dt>
-    <dd><u>1 byte</u>, <u><code>AQ==</code></u></dd>
-  </dl>
-</div>
-
-<div class="callout" id="mediumslow">
+<div class="callout -primary" id="mediumslow">
   <p><strong>Please ensure your node follows the <a href="#personalhandheldmobile-node-configuration">above configuration</a> before connecting to the network.</strong></p>
-  <p>Settings to access the <em>experimental</em> next-generation network:</p>
+  <p>Current primary mesh radio settings:</p>
   <dl>
     <dt>Preset</dt>
     <dd><u>Medium Range - Slow</u></dd>
@@ -101,8 +87,22 @@ To connect to the wide-area Meshtastic network in the NYC area…
     Personal nodes: increase LoRa <span class="js-konami" data-alt="bunny">hop</span> limit to <u>7</u>. (Yes, really.)
   </p>
   <p class="small">
-    Note that the <a href="/preset-testing/">migration</a> to the “MediumSlow” network is a work-in-progress. Only some of the infrastructure has moved. You may find it very difficult to reach either network, or experience unreliable message delivery. Network status and help is available in the <a href="https://discord.nyme.sh">Discord chat</a>.
+    The network is actively <a href="/preset-testing/">migrating</a> to MediumSlow. Not all infrastructure has moved yet. You may find it difficult to reach some parts of the network during the transition. Network status and help is available in the <a href="https://discord.nyme.sh">Discord chat</a>.
   </p>
+</div>
+
+<div class="callout" id="longfast">
+  <p>Legacy network settings (LongFast):</p>
+  <dl>
+    <dt>Preset</dt>
+    <dd><u>Long Range - Fast</u></dd>
+    <dt>Frequency slot</dt>
+    <dd><u>20</u> or <u>0</u></dd>
+    <dt>Public channel name</dt>
+    <dd><u>LongFast</u> or blank</dd>
+    <dt>Public channel key</dt>
+    <dd><u>1 byte</u>, <u><code>AQ==</code></u></dd>
+  </dl>
 </div>
 
 <details>
