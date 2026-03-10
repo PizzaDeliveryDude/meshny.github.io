@@ -10,12 +10,12 @@ Below are the basic settings the node will need to communicate with other nodes.
 for more information [https://meshtastic.org/docs/configuration/radio/lora/](https://meshtastic.org/docs/configuration/radio/lora/)
 - **Region:** United States
 - **Use Preset:** Enabled
-- **Presets:** Long Range - Fast (conversationally known as LongFast, LF20 or LF)
+- **Presets:** Medium Range - Slow (conversationally known as MediumSlow or MS48)
 - **Ignore MQTT:** Disabled (user wants to be apart of MQTT gathered metrics)
 - **Ok to MQTT:** Enabled (user wants to be apart of MQTT gathered metrics)
 - **Transmit Enabled:** Enabled (user wants the node to be able to transmit)
 - **Number of hops:** 3 or 4
-- **Frequency Slot:** 20 (if this is set, it overrides the Channel Name.  0 will automatically calculate based on Channel Name.
+- **Frequency Slot:** 48 (if this is set, it overrides the Channel Name.  0 will automatically calculate based on Channel Name.
 - **RX Boosted Gain:** Enabled (This is an option specific to the SX126x chip series which allows the chip to consume a small amount of additional power to increase RX sensitivity.)
 
 > **_NOTE:_**  The default of `3` should be sufficient in a healthy mesh.  "Really, 3 is fine." `4` or `5` if running CLIENT_MUTE and/or having particular difficulties, but with such a small and densely packed geographic area you are quite likely to have those higher hopped packets leave the Metro area and end up rebroadcasting over 100 miles away! Hello Catskills! This prevents the reverse of the effect we occasionally encounter where Meshes in North PA or CT will show up on the Mesh in NYC, even though they're 100 miles away, because they're running `7` hops.
@@ -24,7 +24,7 @@ for more information [https://meshtastic.org/docs/configuration/radio/lora/](htt
 for more information [https://meshtastic.org/docs/configuration/radio/channels/](https://meshtastic.org/docs/configuration/radio/channels/)
 
 You need at least one primary Channel, it should be configured as follows:
-- **Name:** LongFast (this will need to be set if the Frequency Slot is `0`)
+- **Name:** MediumSlow (this will need to be set if the Frequency Slot is `0`)
 - **Key Size:** Default
 - **Key:** AQ==
 - **Channel Role:** Primary
