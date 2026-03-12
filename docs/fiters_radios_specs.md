@@ -1,4 +1,4 @@
-# meshtastic filter & node/radio information
+# Meshtastic Filters & Node/Radio Information
 [https://meshoregon.com/comparing-3-filters-for-meshtastic-nodes/](https://meshoregon.com/comparing-3-filters-for-meshtastic-nodes/)
 
 Filters
