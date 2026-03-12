@@ -13,7 +13,7 @@ nyme.sh is a group of enthusiasts who love Meshtastic! Most of us are in the New
 
 ## Current Meshtastic Settings
 
-The main nyme.sh [Meshtastic](https://meshtastic.org) network is migrating to `Medium Range - Slow` preset, Frequency Slot `48`. See the [recommended configuration](/getting-started#meshtastic) for Meshtastic nodes.
+The main nyme.sh [Meshtastic](https://meshtastic.org) network is migrating to a mostly **custom** configuration, which includes a ***non**-default* Frequency Slot. See the [recommended configuration](/getting-started#meshtastic) for Meshtastic nodes.
 
 
 ## Preset Testing
